@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    //buildToolsVersion "27.0.1"
+    defaultConfig {
+        applicationId "com.mydavidjerome.android.musicalarm"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    buildTypes {
+        //debug{}
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        /*innerTest{
+            matchingFallbacks = ['debug', 'release']*/
+        }
+    }
+    /*allprojects {
+        repositories {
+            jcenter()
+            flatDir {
+                dirs 'deezerlibs'
+            }
+        }*/
+        allprojects {
+            tasks.withType(JavaCompile) {
+                options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+            }
+
+            }
+
+
+    //}
+
+dependencies {
+    //implementation fileTree(dir: 'app/deezer-sdk-0.11.2', include: ['*.aar','*.jar'])
+    //deezer added here
+    //compile fileTree(dir: 'app/deezer-sdk-0.11.2', include: ['*.aar'])
+    //api project':deezerlib'
+    //api fileTree(dir: 'deezer-sdk-0.11.2', include: ['*.aar','*.jar'])
+    //api fileTree(dir: 'DeezerClasses', include:['*.aar','*.jar'])
+    //api fileTree(dir: 'deezerlibs',include: ['*aar','*jar'])
+    //api fileTree(dir:'lib', include ['*aar','*.jar'])
+    api project(':deezersdk0112')
+    //api fileTree(dir: 'app', include:['*.aar','*.jar'])
+    //api fileTree(dir: 'lib', include:['*.aar','*.jar'])
+    //api project(':deezer-sdk-0.11.2')
+    //api project(':DeezerClasses')
+    //debugImplementation('com.mydavidjerome.android.musicalarm')
+    //Before simply Implementation
+    api 'com.android.support:appcompat-v7:27.1.1'
+    api 'com.android.support.constraint:constraint-layout:1.1.0'
+    //testImplementation before
+    api 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    api 'com.android.support:support-annotations:27.1.1'
+}
+

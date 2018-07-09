@@ -1,0 +1,296 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* R.txt
+* classes.jar
+* com/
+* com/a/
+* com/a/a/
+* com/a/a/Blues$Blues.class
+* com/a/a/Blues$ClassicRock.class
+* com/a/a/Blues.class
+* com/a/a/ClassicRock$1.class
+* com/a/a/ClassicRock$2.class
+* com/a/a/ClassicRock$3.class
+* com/a/a/ClassicRock$Blues.class
+* com/a/a/ClassicRock.class
+* com/deezer/
+* com/deezer/sdk/
+* com/deezer/sdk/Blues.class
+* com/deezer/sdk/ClassicRock.class
+* com/deezer/sdk/Country$1.class
+* com/deezer/sdk/Country$2.class
+* com/deezer/sdk/Country$3.class
+* com/deezer/sdk/Country$Blues.class
+* com/deezer/sdk/Country.class
+* com/deezer/sdk/a/
+* com/deezer/sdk/a/Blues.class
+* com/deezer/sdk/b/
+* com/deezer/sdk/b/Blues.class
+* com/deezer/sdk/b/ClassicRock.class
+* com/deezer/sdk/b/Country.class
+* com/deezer/sdk/model/
+* com/deezer/sdk/model/AImageOwner$1.class
+* com/deezer/sdk/model/AImageOwner$ImageSize.class
+* com/deezer/sdk/model/AImageOwner.class
+* com/deezer/sdk/model/Album$1.class
+* com/deezer/sdk/model/Album.class
+* com/deezer/sdk/model/Artist$1.class
+* com/deezer/sdk/model/Artist.class
+* com/deezer/sdk/model/Blues.class
+* com/deezer/sdk/model/CombinedResult$1.class
+* com/deezer/sdk/model/CombinedResult.class
+* com/deezer/sdk/model/Comment$1.class
+* com/deezer/sdk/model/Comment.class
+* com/deezer/sdk/model/DeezerEntity.class
+* com/deezer/sdk/model/Editorial$1.class
+* com/deezer/sdk/model/Editorial.class
+* com/deezer/sdk/model/Episode$1.class
+* com/deezer/sdk/model/Episode.class
+* com/deezer/sdk/model/Genre$1.class
+* com/deezer/sdk/model/Genre.class
+* com/deezer/sdk/model/ImageOwnerEntity.class
+* com/deezer/sdk/model/Infos$1.class
+* com/deezer/sdk/model/Infos.class
+* com/deezer/sdk/model/JsonEntity.class
+* com/deezer/sdk/model/Offer$1.class
+* com/deezer/sdk/model/Offer$2.class
+* com/deezer/sdk/model/Offer.class
+* com/deezer/sdk/model/Options$1.class
+* com/deezer/sdk/model/Options.class
+* com/deezer/sdk/model/PaginatedList.class
+* com/deezer/sdk/model/Permissions$1.class
+* com/deezer/sdk/model/Permissions.class
+* com/deezer/sdk/model/PlayableEntity.class
+* com/deezer/sdk/model/Playlist$1.class
+* com/deezer/sdk/model/Playlist.class
+* com/deezer/sdk/model/Podcast$1.class
+* com/deezer/sdk/model/Podcast.class
+* com/deezer/sdk/model/Radio$1.class
+* com/deezer/sdk/model/Radio.class
+* com/deezer/sdk/model/RadioCategory.class
+* com/deezer/sdk/model/Track$1.class
+* com/deezer/sdk/model/Track.class
+* com/deezer/sdk/model/User$1.class
+* com/deezer/sdk/model/User.class
+* com/deezer/sdk/network/
+* com/deezer/sdk/network/a/
+* com/deezer/sdk/network/a/Blues.class
+* com/deezer/sdk/network/a/ClassicRock.class
+* com/deezer/sdk/network/a/Country.class
+* com/deezer/sdk/network/a/Dance.class
+* com/deezer/sdk/network/a/a/
+* com/deezer/sdk/network/a/a/Blues.class
+* com/deezer/sdk/network/a/a/ClassicRock$Blues.class
+* com/deezer/sdk/network/a/a/ClassicRock.class
+* com/deezer/sdk/network/a/a/Country.class
+* com/deezer/sdk/network/a/b/
+* com/deezer/sdk/network/a/b/Blues$1.class
+* com/deezer/sdk/network/a/b/Blues$Blues.class
+* com/deezer/sdk/network/a/b/Blues.class
+* com/deezer/sdk/network/a/b/ClassicRock$1.class
+* com/deezer/sdk/network/a/b/ClassicRock$2.class
+* com/deezer/sdk/network/a/b/ClassicRock$3.class
+* com/deezer/sdk/network/a/b/ClassicRock$4.class
+* com/deezer/sdk/network/a/b/ClassicRock.class
+* com/deezer/sdk/network/b/
+* com/deezer/sdk/network/b/Blues$1.class
+* com/deezer/sdk/network/b/Blues$2.class
+* com/deezer/sdk/network/b/Blues.class
+* com/deezer/sdk/network/b/ClassicRock.class
+* com/deezer/sdk/network/b/Country.class
+* com/deezer/sdk/network/connect/
+* com/deezer/sdk/network/connect/Blues.class
+* com/deezer/sdk/network/connect/DeezerConnect$1.class
+* com/deezer/sdk/network/connect/DeezerConnect$Blues.class
+* com/deezer/sdk/network/connect/DeezerConnect$Builder.class
+* com/deezer/sdk/network/connect/DeezerConnect$ClassicRock.class
+* com/deezer/sdk/network/connect/DeezerConnect$Country.class
+* com/deezer/sdk/network/connect/DeezerConnect$Dance.class
+* com/deezer/sdk/network/connect/DeezerConnect$Disco.class
+* com/deezer/sdk/network/connect/DeezerConnect$Funk.class
+* com/deezer/sdk/network/connect/DeezerConnect$Grunge.class
+* com/deezer/sdk/network/connect/DeezerConnect.class
+* com/deezer/sdk/network/connect/IDeezerConnect.class
+* com/deezer/sdk/network/connect/SessionStore.class
+* com/deezer/sdk/network/connect/event/
+* com/deezer/sdk/network/connect/event/DialogError.class
+* com/deezer/sdk/network/connect/event/DialogListener.class
+* com/deezer/sdk/network/request/
+* com/deezer/sdk/network/request/AsyncDeezerTask.class
+* com/deezer/sdk/network/request/DeezerRequest$Format.class
+* com/deezer/sdk/network/request/DeezerRequest.class
+* com/deezer/sdk/network/request/DeezerRequestFactory.class
+* com/deezer/sdk/network/request/JsonUtils$1$1.class
+* com/deezer/sdk/network/request/JsonUtils$1$10.class
+* com/deezer/sdk/network/request/JsonUtils$1$11.class
+* com/deezer/sdk/network/request/JsonUtils$1$12.class
+* com/deezer/sdk/network/request/JsonUtils$1$2.class
+* com/deezer/sdk/network/request/JsonUtils$1$3.class
+* com/deezer/sdk/network/request/JsonUtils$1$4.class
+* com/deezer/sdk/network/request/JsonUtils$1$5.class
+* com/deezer/sdk/network/request/JsonUtils$1$6.class
+* com/deezer/sdk/network/request/JsonUtils$1$7.class
+* com/deezer/sdk/network/request/JsonUtils$1$8.class
+* com/deezer/sdk/network/request/JsonUtils$1$9.class
+* com/deezer/sdk/network/request/JsonUtils$1.class
+* com/deezer/sdk/network/request/JsonUtils$Blues.class
+* com/deezer/sdk/network/request/JsonUtils.class
+* com/deezer/sdk/network/request/SearchResultOrder.class
+* com/deezer/sdk/network/request/event/
+* com/deezer/sdk/network/request/event/Blues.class
+* com/deezer/sdk/network/request/event/DeezerError.class
+* com/deezer/sdk/network/request/event/JsonRequestListener.class
+* com/deezer/sdk/network/request/event/RadioCategoriesRequestListener.class
+* com/deezer/sdk/network/request/event/RequestListener.class
+* com/deezer/sdk/player/
+* com/deezer/sdk/player/AbstractPlayerWrapper.class
+* com/deezer/sdk/player/AbstractTrackListPlayer$1.class
+* com/deezer/sdk/player/AbstractTrackListPlayer$Blues.class
+* com/deezer/sdk/player/AbstractTrackListPlayer.class
+* com/deezer/sdk/player/AlbumPlayer$1.class
+* com/deezer/sdk/player/AlbumPlayer.class
+* com/deezer/sdk/player/ArtistRadioPlayer$1.class
+* com/deezer/sdk/player/ArtistRadioPlayer$2.class
+* com/deezer/sdk/player/ArtistRadioPlayer$Blues.class
+* com/deezer/sdk/player/ArtistRadioPlayer.class
+* com/deezer/sdk/player/Blues$1.class
+* com/deezer/sdk/player/Blues$Blues.class
+* com/deezer/sdk/player/Blues$ClassicRock.class
+* com/deezer/sdk/player/Blues.class
+* com/deezer/sdk/player/CustomTrackListPlayer$1.class
+* com/deezer/sdk/player/CustomTrackListPlayer$Blues.class
+* com/deezer/sdk/player/CustomTrackListPlayer.class
+* com/deezer/sdk/player/DefaultPlayerFactory$Blues.class
+* com/deezer/sdk/player/DefaultPlayerFactory$ClassicRock.class
+* com/deezer/sdk/player/DefaultPlayerFactory.class
+* com/deezer/sdk/player/Player.class
+* com/deezer/sdk/player/PlayerWrapper$RepeatMode.class
+* com/deezer/sdk/player/PlayerWrapper$TrackFormat.class
+* com/deezer/sdk/player/PlayerWrapper.class
+* com/deezer/sdk/player/PlaylistPlayer$1.class
+* com/deezer/sdk/player/PlaylistPlayer.class
+* com/deezer/sdk/player/PodcastPlayer$1.class
+* com/deezer/sdk/player/PodcastPlayer$2.class
+* com/deezer/sdk/player/PodcastPlayer$Blues.class
+* com/deezer/sdk/player/PodcastPlayer.class
+* com/deezer/sdk/player/RadioPlayer$1.class
+* com/deezer/sdk/player/RadioPlayer$2.class
+* com/deezer/sdk/player/RadioPlayer$Blues.class
+* com/deezer/sdk/player/RadioPlayer$RadioType.class
+* com/deezer/sdk/player/RadioPlayer.class
+* com/deezer/sdk/player/TrackPlayer$1.class
+* com/deezer/sdk/player/TrackPlayer$2.class
+* com/deezer/sdk/player/TrackPlayer$Blues.class
+* com/deezer/sdk/player/TrackPlayer.class
+* com/deezer/sdk/player/event/
+* com/deezer/sdk/player/event/BufferState.class
+* com/deezer/sdk/player/event/OnBufferErrorListener.class
+* com/deezer/sdk/player/event/OnBufferProgressListener.class
+* com/deezer/sdk/player/event/OnBufferStateChangeListener.class
+* com/deezer/sdk/player/event/OnPlayerErrorListener.class
+* com/deezer/sdk/player/event/OnPlayerProgressListener.class
+* com/deezer/sdk/player/event/OnPlayerStateChangeListener.class
+* com/deezer/sdk/player/event/PlayerState.class
+* com/deezer/sdk/player/event/PlayerWrapperListener.class
+* com/deezer/sdk/player/event/RadioPlayerListener.class
+* com/deezer/sdk/player/exception/
+* com/deezer/sdk/player/exception/DeezerPlayerException.class
+* com/deezer/sdk/player/exception/InvalidStreamTokenException.class
+* com/deezer/sdk/player/exception/NotAllowedToPlayThatSongException.class
+* com/deezer/sdk/player/exception/StreamLimitationException.class
+* com/deezer/sdk/player/exception/StreamTokenAlreadyDecodedException.class
+* com/deezer/sdk/player/exception/TooManyPlayersExceptions.class
+* com/deezer/sdk/player/impl/
+* com/deezer/sdk/player/impl/Blues.class
+* com/deezer/sdk/player/impl/ClassicRock.class
+* com/deezer/sdk/player/impl/Country.class
+* com/deezer/sdk/player/impl/Dance.class
+* com/deezer/sdk/player/impl/Disco$1.class
+* com/deezer/sdk/player/impl/Disco$Blues.class
+* com/deezer/sdk/player/impl/Disco$ClassicRock.class
+* com/deezer/sdk/player/impl/Disco$Country.class
+* com/deezer/sdk/player/impl/Disco$Dance.class
+* com/deezer/sdk/player/impl/Disco$Disco.class
+* com/deezer/sdk/player/impl/Disco$Funk.class
+* com/deezer/sdk/player/impl/Disco$Grunge.class
+* com/deezer/sdk/player/impl/Disco$HipHop.class
+* com/deezer/sdk/player/impl/Disco$Jazz.class
+* com/deezer/sdk/player/impl/Disco$Metal.class
+* com/deezer/sdk/player/impl/Disco$NewAge.class
+* com/deezer/sdk/player/impl/Disco$Oldies.class
+* com/deezer/sdk/player/impl/Disco.class
+* com/deezer/sdk/player/impl/Funk.class
+* com/deezer/sdk/player/impl/Grunge.class
+* com/deezer/sdk/player/impl/HipHop$Blues.class
+* com/deezer/sdk/player/impl/HipHop$ClassicRock.class
+* com/deezer/sdk/player/impl/HipHop.class
+* com/deezer/sdk/player/impl/Jazz.class
+* com/deezer/sdk/player/impl/Metal.class
+* com/deezer/sdk/player/impl/NativePlayerImpl$1.class
+* com/deezer/sdk/player/impl/NativePlayerImpl$Blues$Blues.class
+* com/deezer/sdk/player/impl/NativePlayerImpl$Blues.class
+* com/deezer/sdk/player/impl/NativePlayerImpl$ClassicRock.class
+* com/deezer/sdk/player/impl/NativePlayerImpl$Country.class
+* com/deezer/sdk/player/impl/NativePlayerImpl$Dance.class
+* com/deezer/sdk/player/impl/NativePlayerImpl.class
+* com/deezer/sdk/player/impl/NewAge.class
+* com/deezer/sdk/player/impl/Oldies.class
+* com/deezer/sdk/player/impl/Other.class
+* com/deezer/sdk/player/impl/Pop.class
+* com/deezer/sdk/player/impl/RnB$Blues.class
+* com/deezer/sdk/player/impl/RnB.class
+* com/deezer/sdk/player/impl/URLDecoderImpl.class
+* com/deezer/sdk/player/networkcheck/
+* com/deezer/sdk/player/networkcheck/Blues.class
+* com/deezer/sdk/player/networkcheck/ClassicRock.class
+* com/deezer/sdk/player/networkcheck/NetworkStateChecker.class
+* com/deezer/sdk/player/networkcheck/NetworkStateCheckerFactory.class
+* com/deezer/sdk/player/networkcheck/NetworkStateListener.class
+* com/deezer/sdk/player/networkcheck/WifiAndMobileNetworkStateChecker.class
+* com/deezer/sdk/player/networkcheck/WifiOnlyNetworkStateChecker.class
+* jni/
+* jni/arm64-v8a/
+* jni/arm64-v8a/libdeezer.so
+* jni/armeabi-v7a/
+* jni/armeabi-v7a/libdeezer.so
+* jni/armeabi/
+* jni/armeabi/libdeezer.so
+* jni/mips/
+* jni/mips/libdeezer.so
+* jni/mips64/
+* jni/mips64/libdeezer.so
+* jni/x86/
+* jni/x86/libdeezer.so
+* jni/x86_64/
+* jni/x86_64/libdeezer.so
+* public.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => deezersdk0112/src/main/AndroidManifest.xml
+* res/ => deezersdk0112/src/main/res/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
